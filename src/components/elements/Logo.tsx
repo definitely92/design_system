@@ -14,7 +14,7 @@ const Logo = ({ isInDrawer, onClickClose }: { isInDrawer: boolean; onClickClose:
   }
 
   return (
-    <div>
+    <div className="flex items-center gap-5">
       {isInDrawer ? (
         <IconButton icon={<IoCloseOutline size={24} />} onClickIcon={onClickClose} />
       ) : (
